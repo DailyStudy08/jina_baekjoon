@@ -1,4 +1,4 @@
-package class1;
+package step1;
 
 public class test {
 
