@@ -1,7 +1,9 @@
 n=int(input())
-lst=[]
+lst=[0]*10001
 for _ in range(n):
-    lst.append(int(input()))
-lst.sort()
-for l in lst:
-    print(l)
+    lst[int(input())]+=1
+
+lst=set(lst)
+for i in range(len(lst)):
+    if lst[i]!=0:
+        print(lst[i])
