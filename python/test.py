@@ -1,6 +1,16 @@
-list=[1,2,3,4]
-del list[0]
-print(list)
+def ex(num):
+    if num < 2:
+        print(num,end='')
+    else:
+        ex(num//2)
+        print(num%2,end='')
 
-for i in range(4,5):
-    print(i)
+ex(20) #10100
+print()
+ex(10) #1010
+print()
+ex(5) #101
+print()
+ex(2) #10
+print()
+ex(1) #1
