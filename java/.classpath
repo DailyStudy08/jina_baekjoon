@@ -9,5 +9,7 @@
 	<classpathentry kind="src" path="step2"/>
 	<classpathentry kind="src" path="step3"/>
 	<classpathentry kind="src" path="step4"/>
+	<classpathentry kind="src" path="step5"/>
+	<classpathentry kind="src" path="step6"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

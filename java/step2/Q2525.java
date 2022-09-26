@@ -15,6 +15,6 @@ public class Q2525 {
         if (h>=24){
             h-=24;
         }
-        System.out.println(h+" "+m);
+        System.out.println(h+" "+m);        sc.close();
     }
 }

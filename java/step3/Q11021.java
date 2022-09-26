@@ -9,6 +9,6 @@ public class Q11021 {
             int b = sc.nextInt();
             System.out.println("Case #"+i+": "+(a+b));
         }
-
+        sc.close();
     }
 }
