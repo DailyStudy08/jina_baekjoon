@@ -16,5 +16,7 @@ public class Q1065 {
             }
         }
         System.out.println(cnt);
+        sc.close();
+
     }
 }

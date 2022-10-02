@@ -10,6 +10,6 @@ public class Q10952 {
                 break;
             }
             System.out.println(a+b);
-        }
+        }        sc.close();
     }
 }

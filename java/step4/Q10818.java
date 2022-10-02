@@ -20,6 +20,7 @@ public class Q10818 {
             }
         }
         System.out.println(min+" "+max);
+        sc.close();
 
     }
 }

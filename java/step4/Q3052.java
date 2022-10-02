@@ -13,5 +13,6 @@ public class Q3052 {
             }
         }
         System.out.println(lst.size());
+        sc.close();
     }
 }

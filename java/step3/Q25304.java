@@ -16,6 +16,6 @@ public class Q25304 {
         }
         else{
             System.out.println("No");
-        }
+        }        sc.close();
     }
 }

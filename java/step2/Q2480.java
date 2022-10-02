@@ -30,5 +30,6 @@ public class Q2480 {
             }
         }
         System.out.println(reward);
+        sc.close();
     }
 }

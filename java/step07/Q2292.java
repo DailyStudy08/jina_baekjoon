@@ -1,15 +1,14 @@
 import java.util.Scanner;
 
-/**
- * Q2739
- */
-public class Q2739 {
-
+public class Q2292 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        for(int i=1;i<10;i++){
-            System.out.println(n+" * "+ i+" = "+(n*i));        sc.close();
+        int cnt = 1;
+        while (n>1) {
+            n-=(6*cnt);
+            cnt +=1;
         }
+        System.out.println(cnt);
     }
 }
