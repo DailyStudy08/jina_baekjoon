@@ -11,10 +11,9 @@ for _ in range(N):
     if n==stack[-1]:
         stack.pop()
         result.append('-')
-
 if not stack:
     print('\n'.join(result))
 else:
-    print('No')
+    print('NO')
         
     
